@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  label,
+  input {
+    display: block;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  svg {
+    vertical-align: bottom;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  
+  
+  body {
+    font-size: 13px;
+    color: #111;
+  }
+  
+  .amazon .logo {
+    width: 100%;
+  }
+  
+  .amazon .logo a img {
+    display: block;
+    width: 125px;
+    margin: -15px auto;
+  }
+  
+  .amazon .form {
+    width: 315px;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+  
+  .amazon .form h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .amazon .form label {
+    font-weight: 700;
+    font-size: 13px;
+    color: #222;
+    padding-bottom: 5px;
+  }
+  
+  .amazon .form input {
+    width: 100%;
+    padding: 6px 7px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #a6a6a6;
+    font-size: 13px;
+  }
+  
+  .amazon .form input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+  }
+  
+  .amazon .form p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .amazon .form p i {
+    color: #3a81be;
+    margin-right: 5px;
+  }
+  
+  .amazon .form input:nth-child(11) {
+    background-image: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border: 1px solid #a88734;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .amazon .form p {
+    width: 275px;
+  }
+  
+  .amazon .form p a {
+    color: #3a81be;
+  }
+  
+  .amazon .form p a:hover {
+    color: #e77600;
+    text-decoration: underline;
+  }
+  
+  .amazon .border {
+    height: 20px;
+    width: 70%;
+    margin: 20px auto;
+    border-top: 1px solid #eee;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.14),
+      rgba(0, 0, 0, 0.03) 3px,
+      transparent
+    );
+  }
+  
+  
+  
+  .amazon footer .menu {
+    border-top: 1px solid #eee;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.14),
+      rgba(0, 0, 0, 0.03) 3px,
+      transparent
+    );
+    padding: 30px 0px 15px 0px;
+  
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .amazon footer .menu ul li {
+    display: inline-block;
+    margin: 0px 10px;
+  
+    font-size: 11px;
+  }
+  
+  .amazon footer .menu ul li a {
+    color: #3a81be;
+  }
+  
+  .amazon footer .menu ul li:hover a {
+    color: #e77600;
+    text-decoration: underline;
+  }
+  
+  .amazon footer .content {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 11px;
+  }

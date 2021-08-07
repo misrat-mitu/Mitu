@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "OpenSans R";
+    src: url(../fonts/OpenSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "OpenSans B";
+    src: url(../fonts/OpenSans-Bold.ttf);
+  }
+  
+  /*CSS Reset Code start*/
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: "OpenSans R", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  button {
+    display: block;
+  }
+  
+  input {
+    display: block;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  /*CSS Reset Code end*/
+  
+  .bg {
+    width: 100%;
+    height: 100vh;
+  
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 255, 0, 0.8)
+      ),
+      url(../img/pexels-dick-hoskins-6642124.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .bg .contact-form {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .bg .contact-form .head {
+    text-align: center;
+    position: relative;
+  }
+  
+  .bg .contact-form .head img {
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: -150px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  /*-598*/
+  .bg .contact-form .head h1 {
+    color: #444;
+    font-family: "OpenSans B";
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .bg .contact-form .form input,
+  .bg .contact-form .form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+  }
+  
+  .bg .contact-form .form textarea {
+    height: 100px;
+  }
+  
+  .bg .contact-form .form button {
+    border: none;
+    padding: 15px 40px;
+    font-family: "OpenSans B";
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 255, 0, 0.8)
+    );
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 145px;
+  }

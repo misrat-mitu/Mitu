@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .gmail {
+    width: 375px;
+    height: 385px;
+  
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+  
+    margin: auto;
+    padding: 38px 39px 80px 39px;
+  
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  
+  .gmail .logo svg {
+    margin-left: 145px;
+  }
+  
+  .gmail .form {
+    text-align: center;
+  }
+  
+  .gmail .form h2 {
+    color: #202124;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .gmail .form h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  .gmail .form input {
+    width: 90%;
+    margin-top: 35px;
+    padding: 18px 10px;
+  
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+  
+    font-size: 16px;
+    color: #202124;
+  }
+  
+  .gmail .a-tags a {
+    color: #1a73e8;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .gmail .a-tags a:first-child {
+    display: inline-block;
+    margin: 10px 5px 0px 5px;
+  }
+  
+  .gmail .a-tags p {
+    color: #5f6368;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .gmail .a-tags a:nth-child(3) {
+    display: block;
+  }
+  
+  .gmail .a-tags a:nth-child(4) {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  
+  .gmail .a-tags a:nth-child(5) {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: #fff;
+  }

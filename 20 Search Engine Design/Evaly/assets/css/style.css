@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a,
+i,
+img {
+  cursor: pointer;
+}
+
+input:hover,
+input:focus {
+  outline: none;
+}
+.container {
+  width: 1220px;
+  margin: auto;
+}
+body {
+  background-color: gray;
+}
+.main {
+  background-color: white;
+}
+.main .header {
+  background-color: #f7f8fa;
+}
+.main .header {
+  padding: 10px 0px;
+}
+.main .header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.main .header .right {
+  float: left;
+  width: 50%;
+}
+.main .header .right i:nth-child(1) {
+  color: #c9151b;
+  transform: rotate(-45deg);
+  padding-right: 3px;
+}
+.main .header .right a:nth-child(2) {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  transform: translateY(-1px);
+}
+.main .header .right i:nth-child(3) {
+  color: #c9151b;
+  padding-right: 3px;
+}
+.main .header .right a:nth-child(4) {
+  display: inline-block;
+  font-size: 14px;
+  transform: translateY(-3px);
+}
+.main .header .left {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.main .header .left i {
+  color: #c9151b;
+  padding-right: 3px;
+}
+.main .header .left a {
+  display: inline-block;
+  font-size: 14px;
+  transform: translateY(-1px);
+}
+.main .search {
+  padding: 20px 0px;
+}
+.main .search::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.main .search .logo {
+  float: left;
+  width: 10%;
+}
+.main .search .logo img {
+  max-width: 100px;
+}
+.main .search .search-box {
+  float: left;
+  width: 70%;
+  transform: translateX(30px);
+}
+.main .search .search-box input {
+  width: 85%;
+  padding: 10px 10px 8px 18px;
+  border: 2px solid orangered;
+  border-radius: 5px;
+}
+.main .search .search-box button {
+  display: inline-block;
+  width: 10%;
+  font-size: 16px;
+  padding: 9px 29px;
+  background: orangered;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  transform: translateX(-10px);
+  cursor: pointer;
+}
+.main .search .menu-icons {
+  float: left;
+  width: 20%;
+  text-align: right;
+  margin-top: 8px;
+}
+.main .search .menu-icons i {
+  display: inline-block;
+  padding-left: 37px;
+}

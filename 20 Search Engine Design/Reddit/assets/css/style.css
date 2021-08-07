@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  svg {
+    vertical-align: bottom;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  
+  body {
+    background-color: grey;
+  }
+  
+  .nav {
+    background-color: #fff;
+    padding: 10px 35px 5px 15px;
+    height: 80px;
+  }
+  
+  .nav::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  .nav .logo {
+    width: 20%;
+    float: left;
+  
+    box-sizing: border-box;
+  }
+  
+  .nav .logo a img {
+    width: 85px;
+    margin-top: 3px;
+  }
+  
+  .nav .search-engine {
+    width: 50%;
+    float: left;
+  }
+  
+  .nav .search-engine input {
+    width: 100%;
+    padding: 8px 35px;
+    box-sizing: border-box;
+    background-color: #f6f7f7;
+    color: #1c1c1c;
+    border: 1px solid #edeff1;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .nav .search-engine input:focus {
+    background-color: #fff;
+    border: 1px solid #0079d3;
+  }
+  
+  .nav .search-engine i {
+    position: absolute;
+    top: 20px;
+    left: 265px;
+  }
+  
+  .nav .accounts {
+    width: 30%;
+    float: left;
+    text-align: right;
+  }
+  
+  .nav .accounts button:nth-child(1) {
+    display: inline-block;
+    border: 1px solid #0079d3;
+    background-color: #fff;
+    color: #0079d3;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav .accounts button:nth-child(1):hover {
+    background-color: #f5fafd;
+  }
+  
+  .nav .accounts button:nth-child(2) {
+    display: inline-block;
+    border: 1px solid #0079d3;
+    background-color: #0079d3;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav .accounts button:nth-child(2):hover {
+    background-color: #1484d6;
+  }
+  
+  .nav .accounts button:nth-child(3) {
+    display: inline-block;
+    border: 1px solid #f6f7f7;
+    background-color: #fff;
+    padding: 2px 15px;
+    font-size: 16px;
+    color: #888;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .nav .accounts button:nth-child(3) i:nth-child(1) {
+    margin-right: 6px;
+  }

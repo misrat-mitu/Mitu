@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  input,
+  button {
+    display: block;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  svg {
+    vertical-align: bottom;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/bg.png);
+  }
+  
+  .form {
+    width: 270px;
+  
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 80px;
+    height: 550px;
+  }
+  
+  .form .heading h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .form .heading svg {
+    margin: 0px auto;
+  }
+  
+  .form .inp input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    margin-top: 5px;
+  }
+  
+  .form .inp input:focus {
+    box-shadow: 0 0 0 4px rgb(0 132 255 / 50%);
+  }
+  
+  .form .inp a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+  
+  .form .btns {
+    text-align: center;
+  }
+  
+  .form .btns button {
+    width: 100%;
+  }
+  
+  .form .btns .f {
+    display: block;
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 10px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: left;
+    
+  }
+  
+  .form .btns .f i {
+    font-size: 21px;
+  }
+  
+  .form .btns .f span {
+    font-size: 14px;
+    margin-left: 25px;
+    vertical-align: text-top;
+  }
+  
+  .form .btns input {
+    display: block;
+    width: 100%;
+    background-color: #e60023;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form .btns input:hover {
+    background-color: #d50c22;
+  }
+  
+  .form .btns p {
+    margin: 15px 0px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+  }
+  
+  .form .btns .g {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #e5eefd;
+    color: #333;
+    border-radius: 25px;
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 12px;
+    
+  }
+  
+  .form .btns .g:hover {
+    background-color: #f8faff;
+  }
+  
+  .form .btns .g img {
+    width: 20px;
+    vertical-align: text-bottom;
+  }
+  
+  .form .btns .g span {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  
+  .form .footer p {
+    text-align: center;
+    font-size: 11px;
+    color: #888;
+    margin: 15px 0px 10px 0px;
+  }
+  
+  .form .footer p a {
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .form .footer .border {
+    margin: 0px auto;
+    width: 40%;
+    border: 1px solid #ddd;
+  }
+  
+  .form .footer-2 {
+    text-align: center;
+  }
+  
+  .form .footer-2 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sign-up {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+  }
+  
+  .sign-up a {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+  
+  .sign-up a:hover {
+    background-color: #f0f0f0;
+    
+  }

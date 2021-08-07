@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  input:hover,
+  input:focus {
+    outline: none;
+  }
+  body {
+    background-color: gray;
+  }
+  .s-container {
+    width: 750px;
+    margin: auto;
+  }
+  .main {
+    background-color: #fff;
+    padding-bottom: 40px;
+  }
+  .main .image {
+    text-align: center;
+  }
+  .main .image img {
+    cursor: pointer;
+    margin: 15px 0px 40px;
+    width: 150px;
+  }
+  .main .search {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transform: translateX(25px);
+  }
+  .main .search::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .main .search .input {
+    width: 90%;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+  }
+  .main .search .input input {
+    width: 99%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .main .search .btn {
+    width: 9%;
+    float: left;
+  }
+  .main .search .btn button {
+    width: 99%;
+    font-size: 16px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #999;
+    background-color: #fff;
+    transform: translate(-68px, 11px);
+    cursor: pointer;
+    transition: 0.01s;
+  }
+  .main .search .btn button:hover {
+    color: black;
+  }

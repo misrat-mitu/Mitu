@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+input:hover,
+input:focus {
+  outline: none;
+}
+body {
+  background-color: gray;
+}
+.main {
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+.main .image {
+  text-align: center;
+  cursor: pointer;
+}
+.main .image img {
+  margin: 70px 0px 40px;
+  width: 200px;
+}
+.main .search {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+}
+.main .search::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main .search .input {
+  width: 93%;
+  float: left;
+}
+.main .search .input input {
+  width: 100%;
+  font-size: 16px;
+  padding: 13px 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #fff;
+}
+.main .search .btn {
+  width: 7%;
+  float: left;
+}
+.main .search .btn button {
+  width: 100%;
+  font-size: 16px;
+  padding: 13px 5px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.01s;
+  color: #999;
+  background-color: white;
+}
+.main .search .btn button:hover {
+  background-color: #66ad57;
+  color: white;
+}
+
+.container p {
+  font-weight: normal;
+  font-size: 35px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.main .text p {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.menu {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.menu ul {
+  display: inline-block;
+}
+.menu ul li {
+  display: inline-block;
+  margin: 0px 17px;
+  transform: translateY(-5px);
+}
+.menu ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+.menu ul li a i {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
